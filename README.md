@@ -122,7 +122,7 @@ Quel pourcentage de valeurs est-il inférieur à une valeur spécifique ?
 Quelles valeurs peuvent être considérées comme exceptionnelles ? Par exemple, dans un test de QI, quels scores représentent les 5 % supérieurs ? 
 Quel est le score relatif d'une distribution par rapport à une autre ? Par exemple, Michael est plus grand que la moyenne des hommes, et Emily est plus grande que la moyenne des femmes, mais qui est plus grand relativement dans son sexe ?
 
-![Screenshot](https://github.com/tomcdev63/ML/blob/main/cars/src/static/images/z_score.png?raw=true)
+![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/z_score.png?raw=true)
 
 ⦁	Annexe 7 : Regression Lineaire 📈
 
