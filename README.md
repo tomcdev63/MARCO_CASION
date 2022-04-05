@@ -85,6 +85,9 @@ Ce site est accessible en ligne à l’adresse :
 Ou de manière locale, en se rendant dans le dossier src/app/ et en exécutant la commande :   
 ⦁ uvicorn main:app
 
+![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/Captdure.JPG?raw=true)
+![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/15.JPG?raw=true)
+
 ## Annexes
 
 ⦁	Annexe 1 : Normalisation des données 1️⃣
@@ -141,5 +144,3 @@ Une forêt aléatoire est un méta-estimateur (c'est-à-dire qu'il combine le r�
 * Chaque arbre tire un échantillon aléatoire de l'ensemble de données d'origine lors de la génération de ses divisions, ajoutant un élément supplémentaire de caractère aléatoire qui empêche le surajustement.
 
 ![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/Captur%C3%B9%C3%B9e.JPG?raw=true)
-
-![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/15.JPG?raw=true)
