@@ -140,4 +140,4 @@ Une forêt aléatoire est un méta-estimateur (c'est-à-dire qu'il combine le r�
 * Le nombre d'entités pouvant être fractionnées à chaque nœud est limité à un certain pourcentage du total (appelé hyperparamètre ). Cela garantit que le modèle d'ensemble ne repose pas trop sur une caractéristique individuelle et fait un usage équitable de toutes les caractéristiques potentiellement prédictives .
 * Chaque arbre tire un échantillon aléatoire de l'ensemble de données d'origine lors de la génération de ses divisions, ajoutant un élément supplémentaire de caractère aléatoire qui empêche le surajustement.
 
-![Screenshot](https://github.com/tomcdev63/ML/blob/main/cars/src/static/images/forest.JPG?raw=true)
+![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/Captur%C3%B9%C3%B9e.JPG?raw=true)
