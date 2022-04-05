@@ -53,7 +53,7 @@ En termes de données, cette société met à disposition une base de données r
     ```sh
     uvicorn main:app --reload
     ```
-![Screenshot](https://github.com/tomcdev63/ML/blob/main/cars/src/static/images/uvicorn.JPG?raw=true)
+![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/Capture.JPG?raw=true)
 
 ## Modèles ⭐
 * ```data/models/linear_regression_best_78%``` - modèle de Regression Linéaire avec un r2 à 78%  
