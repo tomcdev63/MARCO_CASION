@@ -1,0 +1,27 @@
+CREATE TABLE "Car" (
+	"Id"	INTEGER NOT NULL,
+	"Name"	TEXT NOT NULL,
+	"Year"	INTEGER NOT NULL,
+	"FK_OwnerType"	INTEGER NOT NULL,
+	"Seats"	INTEGER NOT NULL,
+	"Price"	REAL NOT NULL,
+	"FK_Motor"	INTEGER NOT NULL,
+	FOREIGN KEY("FK_OwnerType") REFERENCES "OwnerType"("Id"),
+	FOREIGN KEY("FK_Motor") REFERENCES "Motor"("Id")
+)
+
+INSERT INTO OwnerType (Type) VALUES ("First");
+INSERT INTO OwnerType (Type) VALUES ("Second");
+INSERT INTO OwnerType (Type) VALUES ("Third");
+INSERT INTO OwnerType (Type) VALUES ("Fourth & Above");
+
+
+
+INSERT INTO FuelType (Type) VALUES ("Petrol");
+INSERT INTO FuelType (Type) VALUES ("Diesel");
+
+
+INSERT INTO Transmission (Type) VALUES ("Manual");
+INSERT INTO Transmission (Type) VALUES ("Automatic");
+
+

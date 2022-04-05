@@ -1,0 +1,189 @@
+<!-- ctrl + shit + v pr prévisualiser -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Une voiture d'occasion!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/main.css" />
+    <link rel="icon" type="image/png" href="../static/images/logo.png">
+</head>
+
+
+<body id="home" alt="">
+    <div style="height:100%; overflow-y: scroll;">
+        <form background-color="white" method="post" action="/prediction">
+
+            <div class="global">
+                <h1>E2. Une voiture d'occasion!</h1>
+
+                <p>Vous pouvez retrouver l'intégralité de mon projet sur mon repository <a
+                        href="https://github.com/tomcdev63/ML/blob/main/cars/" target="_blank"><img
+                            src="../static/images/25231.png" class="logo" /></a></p>
+
+                <h3>Bienvenue chez MARCO CASION!</h3>
+                <h4>Grâce à nos algorithmes d'Intelligence Artificelle nous sommes en capacité de prédire le prix de
+                    reprise de votre voiture d'occasion en fonction de certains critères!</h4>
+                <h4>La version 2 du projet verra bientôt le jour avec la possibilité de selectionner des modèles et
+                    d'autres fonctionalités!</h4>
+                <br />
+                <h3>1 - Choisissez votre modele d'Intelligence Artificielle! </h3>
+                <select name="choix_du_modele">
+                    <option valeur="linear_regression_best_78%">linear_regression_best_78%</option>
+                    <option valeur="random_forest_regressor_best_89%">random_forest_regressor_best_89%</option>
+                </select>
+                <br />
+                <br />
+
+                <h3>2 - Entrez les valeurs souhaitées afin de determiner le prix de reprise de votre voiture!</h3>
+
+                <div class="questions">
+                    <table>
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Brands">Marque</label></td>
+                            <td>
+                                <select name="Brands">
+
+                                    <option valeur="Renault">Renault</option>
+                                    <option valeur="Suzuki">Suzuki</option>
+                                    <option valeur="Hyundai">Hyundai</option>
+                                    <option valeur="Honda">Honda</option>
+                                    <option valeur="Audi">Audi</option>
+                                    <option valeur="Nissan">Nissan</option>
+                                    <option valeur="Toyota">Toyota</option>
+                                    <option valeur="Volkswagen">Volkswagen</option>
+                                    <option valeur="Tata">Tata</option>
+                                    <option valeur="Land">Land</option>
+                                    <option valeur="Mercedes-Benz">Mercedes-Benz</option>
+                                    <option valeur="BMW">BMW</option>
+                                    <option valeur="Mahindra">Mahindra</option>
+                                    <option valeur="Ford">Ford</option>
+                                    <option valeur="Porsche">Porsche</option>
+                                    <option valeur="Datsun">Datsun</option>
+                                    <option valeur="Jaguar">Jaguar</option>
+                                    <option valeur="Volvo">Volvo</option>
+                                    <option valeur="Mitsubishi">Mitsubishi</option>
+                                    <option valeur="Chevrolet">Chevrolet</option>
+                                    <option valeur="Skoda">Skoda</option>
+                                    <option valeur="Mini">Mini</option>
+                                    <option valeur="Isuzu">Isuzu</option>
+                                    <option valeur="Fiat">Fiat</option>
+                                    <option valeur="Jeep">Jeep</option>
+                                    <option valeur="Ambassador">Ambassador</option>
+                                    <option valeur="Force">Force</option>
+
+                                </select>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Seniority">Ancienneté</label></td>
+                            <td><input type="number" id="Seniority" name="Seniority" required value="7" min="2"
+                                    max="23"></td>
+                        </tr>
+
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Owner_Type">Main(s)</label></td>
+                            <td>
+
+                                <select name="Owner_Type">
+
+                                    <option valeur="1">1</option>
+                                    <option valeur="2">2</option>
+                                    <option valeur="3">3</option>
+                                    <option valeur="4">4</option>
+
+                                </select>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Seats">Places</label></td>
+                            <td><input type="number" id="Seats" name="Seats" required value="5" min="2" max="10"></td>
+                        </tr>
+
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Kilometers_Driven">Kilomètres</label></td>
+                            <td><input type="number" id="Kilometers_Driven" name="Kilometers_Driven" required
+                                    value="50000" min="170" max="300000"></td>
+                        </tr>
+
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Fuel_Type">Carburant</label></td>
+                            <td>
+
+                                <select name="Fuel_Type">
+
+                                    <option valeur="Fuel_Type*Diesel">Diesel</option>
+                                    <!-- <option valeur="Fuel_Type*CNG">CNG</option>
+                                        <option valeur="Fuel_Type*LPG">LPG</option> -->
+                                    <option valeur="Fuel_Type*Petrol">Petrol</option>
+
+                                </select>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Transmission">Transmission</label></td>
+                            <td>
+
+                                <select name="Transmission">
+
+                                    <option valeur="Transmission*Manual">Manual</option>
+                                    <option valeur="Transmission*Automatic">Automatic</option>
+
+                                </select>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Mileage">Consommation</label></td>
+                            <td><input type="number" id="Mileage" name="Mileage" required value="18" min="8" max="29">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Engine">Cylindrée</label></td>
+                            <td><input type="number" id="Engine" name="Engine" required value="1594" min="624"
+                                    max="3198"></td>
+                        </tr>
+
+
+                        <tr>
+                            <td><label style="color:#323f4e" ;for="Power">Puissance</label></td>
+                            <td><input type="number" id="Power" name="Power" required value="110" min="34" max="300">
+                            </td>
+                        </tr>
+
+
+
+                    </table>
+
+                    <br />
+
+                    <input class="bouton" type="submit" value="Submit">
+
+                </div>
+        </form>
+    </div>
+</body>
+
+</html>

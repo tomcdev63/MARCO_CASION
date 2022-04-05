@@ -1,0 +1,158 @@
+
+
+body
+{   
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    margin: 0;
+    padding: 0; 
+    background-color: #323f4e;
+    color: #323f4e; 
+    font-family : 'Trebuchet MS';
+    font-style: italic; 
+
+}
+   
+
+
+h1{
+    
+    margin-left: 10px;
+    
+}
+
+h2{
+    
+    margin-left: 10px;
+    
+}
+
+h3{
+    
+    margin-left: 10px;
+    
+}
+
+h4{
+    
+    margin-left: 10px;
+
+    
+}
+
+p{
+    font-weight: bolder;
+    margin-left: 10px;
+
+    
+}
+
+
+select[name="choix_du_modele"] {
+    margin-left:10px;
+    }
+
+    
+
+#home {
+    background-image: url("../images/vendeur_voitures.jpg");
+    background-size: cover;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+.pcentered{
+
+    margin-top: 2em;
+    font-size: 3em;
+    text-align:center;
+    font-weight: bolder;
+    
+}
+
+.questions {
+    
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+.questions td {
+    
+    padding : 10px;
+
+}
+
+.bouton {
+    
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight:bold;
+    margin: 10px 10px 10px 10px;
+    padding : 10px;
+    background : rgb(255, 255, 255);
+    border : None;
+    text-transform: uppercase;
+    
+
+}
+
+.bouton:hover {
+    
+    cursor:pointer;
+    background-color: #323f4e;
+    
+}
+
+
+.arrow {
+    
+    position: absolute;
+    top:0px;
+    left:0px;
+    
+}
+
+.arrow img{
+    
+    width:55px;
+    filter:invert(100%);
+
+}
+
+
+.global{
+
+    width: 24%;
+    height: 96.5vh;
+    overflow-y: scroll;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    opacity: 0.65;
+    margin: 10px;
+
+}
+
+.globalreponse{
+
+    width: 85%;
+    height: 12vh;
+    margin-top: 60px;
+    background-color: rgb(216, 216, 216);
+    opacity: 0.65;
+    font-size: 7px;
+    letter-spacing: 2px;
+
+}
+
+.logo{
+
+    width: 25px;
+
+}
