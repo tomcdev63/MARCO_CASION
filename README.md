@@ -85,8 +85,7 @@ Ce site est accessible en ligne à l’adresse :
 Ou de manière locale, en se rendant dans le dossier src/app/ et en exécutant la commande :   
 ⦁ uvicorn main:app
 
-![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/Captdure.JPG?raw=true)
-![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/15.JPG?raw=true)
+![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/E1_marco_casion_DEMO.gif?raw=true)
 
 ## Annexes
 
