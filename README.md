@@ -2,7 +2,7 @@
 
 # CARS 🚗
 
-![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/vendeur-voitures-occasion.jpg?raw=true)
+![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/E1_marco_casion_DEMO.gif?raw=true)
 
 ## Sommaire 📋
 
