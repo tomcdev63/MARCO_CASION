@@ -102,11 +102,12 @@ Ce site est accessible en ligne à l’adresse :
 Ou de manière locale, en se rendant dans le dossier src/app/ et en exécutant la commande :  
  
 ```uvicorn main:app```
+ 
+![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/E1_marco_casion_DEMO.gif?raw=true)
 
 De plus, afin de permettre à Marco de conserver un historique des différentes demandes des éventuels futurs vendeurs, une nouvelle table a été créée au sein de la base de données relationnelles fournie. Celle-ci permet en parallèle d'alimenter la base de données originale de nouvelles données :)
  
 ![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/15.JPG?raw=true)
-![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/E1_marco_casion_DEMO.gif?raw=true)
 
 ## Annexes
 
