@@ -17,7 +17,7 @@
 * [Construit_avec](#Construit_avec)
 * [Installation](#Installation)
 * [Usage](#usage)
-* [Création d’une API](#creation_dune_api)
+* [Création_API](#création_api)
 * [Annexes](#annexes)
  
 <!-- SOURCES -->
@@ -97,7 +97,7 @@ Après avoir fait tourner le notebook regroupant les différents algorithmes d�
 ![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/jjgfgftfttggg.JPG?raw=true)
 
 
-## Création d’une API
+## Création_API
 
 Afin de répondre au mieux à la demande du client, un site internet intégrant un module d'estimation (indiquant le prix moyen d'une voiture d'occasion reprise en Inde et celui appliqué par la société "MARCO CASION" : 9% de plus) a été mis en place grâce au framework FastAPI.   
 Ainsi les futurs vendeurs désireux de connaitre le prix de rachat de leur véhicule par la société Marco Casion n’auront plus qu’à se rendre sur le site de Marco et indiquer les différents critères de leur véhicule afin d’avoir une estimation du prix de rachat de celui-ci.  
