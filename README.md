@@ -90,7 +90,9 @@ En termes de données, cette société met à disposition une base de données r
 Grâce à la librairie MLFlow les divers tests concernant les algorithmes employés ainsi que leurs hyperparamètres (voir Annexe 8) ont pu être sauvegardés au sein d’une interface graphique. Cela a pour but d’avoir une représentation visuelle et graphique de l’ensemble des essais effectués ainsi que de détecter et corriger les éventuels dysfonctionnements et anomalies pouvant survenir.
 Après avoir fait tourner le notebook regroupant les différents algorithmes d’IA, il suffit alors de lancer le serveur local MLFlow et de se rendre dans le dossier src/app/, puis d’exécuter la commande :  
  
-```mlflow ui``` 
+```sh
+ mlflow ui
+``` 
  
 ![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/jjgfgftfttggg.JPG?raw=true)
 
@@ -103,7 +105,9 @@ Ce site est accessible en ligne à l’adresse :
 ⦁	http://ml.car.tomdev.ovh/   
 Ou de manière locale, en se rendant dans le dossier src/app/ et en exécutant la commande :  
  
-```uvicorn main:app```
+```sh
+ uvicorn main:app
+```
  
 ![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/E1_marco_casion_DEMO.gif?raw=true)
 
@@ -114,6 +118,7 @@ De plus, afin de permettre à Marco de conserver un historique des différentes 
 ## Annexes
 
 ⦁	Annexe 1 : Normalisation des données ✔️
+ 
 Source : 
 https://dataanalyticspost.com/Lexique/normalisation/#:~:text=Normalisation%20%3A%20La%20normalisation%20est%20une,l'application%20de%20certains%20algorithmes.⦁	&⦁	text=Cette%20m%C3%A9thode%20a%20en%20outre,dans%20la%20fouille%20de%20donn%C3%A9es.   
 Normalisation : La normalisation est une méthode de prétraitement des données qui permet de réduire la complexité des modèles. C'est également un préalable à l'application de certains algorithmes. ... Cette méthode a en outre de nombreuses applications dans la fouille de données.
