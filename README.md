@@ -1,3 +1,52 @@
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Sources](#sources)
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+### Built With
+
+* [Anaconda](https://www.anaconda.com/)
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Installation
+
+1. Clone the repo
+
+    ```sh
+    git clone https://github.com/tomcdev63/Ya_que_la_taille_du_DF.git
+    ```
+
+2. Create a conda virtual environment with
+
+    ```sh
+    conda create --name <env> --file requirements.txt
+    ```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+* [main.ipynb](https://github.com/tomcdev63/https://github.com/tomcdev63/Ya_que_la_taille_du_DF/blob/main/src/main.ipynb) - our step by step process to create our model.   
+
+## Models
+* ```/saved_models/model.h5``` - 10 categories trained model.  
+* ```/saved_models/model_data_augmentation.h5``` - 10 categories trained model with data augmentation.
+
+## Sources
+
+* https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
+* https://neptune.ai/blog/data-augmentation-in-python
 
 
 # CARS 🚗
