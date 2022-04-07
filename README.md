@@ -1,66 +1,17 @@
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Sources](#sources)
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-### Built With
-
-* [Anaconda](https://www.anaconda.com/)
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Installation
-
-1. Clone the repo
-
-    ```sh
-    git clone https://github.com/tomcdev63/Ya_que_la_taille_du_DF.git
-    ```
-
-2. Create a conda virtual environment with
-
-    ```sh
-    conda create --name <env> --file requirements.txt
-    ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-* [main.ipynb](https://github.com/tomcdev63/https://github.com/tomcdev63/Ya_que_la_taille_du_DF/blob/main/src/main.ipynb) - our step by step process to create our model.   
-
-## Models
-* ```/saved_models/model.h5``` - 10 categories trained model.  
-* ```/saved_models/model_data_augmentation.h5``` - 10 categories trained model with data augmentation.
-
-## Sources
-
-* https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
-* https://neptune.ai/blog/data-augmentation-in-python
-
-
 # CARS 🚗
 
 ![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/E1_marco_casion_DEMO.gif?raw=true)
 
+<!-- SOMMAIRE -->
 ## Sommaire 📋
 
 * [Contexte du projet](#contexte_du_projet)
-* [Construit avec](#construit_avec)
+  * [Construit avec](#construit_avec)
 * [Installation](#installation)
-* [Usage](#usage)
+  * [Usage](#usage)
 * [Sources](#sources)
 
+<!-- CONTEXTE DU PROJET -->
 ## Contexte du projet ✔️
 
 La société « Marco Casion » achète des voitures d’occasion en Inde. 
@@ -69,10 +20,12 @@ Pour gagner du temps et rendre son offre plus attractive, il a décidé de moder
 C’est dans ce cadre qu’il vous sollicite pour réaliser l’application qui permettra à tout vendeur de véhicule d’occasion de connaître le tarif de rachat de son véhicule par « Marco Casion ».
 En termes de données, cette société met à disposition une base de données relationnelle qui contient les caractéristiques des véhicules d’occasion en Inde et leur prix de vente.
 
+<!-- CONSTRUIT AVEC -->
 ## Construit avec ⚙️
 
 * [Anaconda](https://www.anaconda.com/)
 
+<!-- INSTALLATION -->
 ## Installation 👨‍💻
 
 * Clone du repos
@@ -92,7 +45,8 @@ En termes de données, cette société met à disposition une base de données r
     ```sh
     conda env update -n myenv --file environment.yml
     ```
-
+    
+<!-- USAGE -->
 ## Usage 👌
  
 * ```src/app/00_CLEAN_BDD.ipynb``` - Notebook concernant l'import des données et un premier nettoyage rapide.
@@ -104,10 +58,12 @@ En termes de données, cette société met à disposition une base de données r
     ```
 ![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/Capture.JPG?raw=true)
 
+<!-- MODELES -->
 ## Modèles ⭐
 * ```data/models/linear_regression_best_78%``` - modèle de Regression Linéaire avec un r2 à 78%  
 * ```data/models/random_forest_regressor_best_89%``` - modèle de Random Forest Regressor avec un r2 à 89%
 
+<!-- SOURCES -->
 ## Sources ℹ️
 
 * https://fr.wikipedia.org/wiki/Régression_linéaire#:~:text=Comme%20les%20autres%20modèles%20de,des%20valeurs%20particulières%20de%20x
@@ -123,7 +79,8 @@ En termes de données, cette société met à disposition une base de données r
 
 Grâce à la librairie MLFlow les divers tests concernant les algorithmes employés ainsi que leurs hyperparamètres (voir Annexe 8) ont pu être sauvegardés au sein d’une interface graphique. Cela a pour but d’avoir une représentation visuelle et graphique de l’ensemble des essais effectués ainsi que de détecter et corriger les éventuels dysfonctionnements et anomalies pouvant survenir.
 Après avoir fait tourner le notebook regroupant les différents algorithmes d’IA, il suffit alors de lancer le serveur local MLFlow et de se rendre dans le dossier src/app/, puis d’exécuter la commande :  
-⦁	mlflow ui 
+```mlflow ui``` 
+
 
 ## Création d’une API ⚙️
 
@@ -132,7 +89,7 @@ Ainsi les futurs vendeurs désireux de connaitre le prix de rachat de leur véhi
 Ce site est accessible en ligne à l’adresse :   
 ⦁	http://ml.car.tomdev.ovh/   
 Ou de manière locale, en se rendant dans le dossier src/app/ et en exécutant la commande :   
-⦁ uvicorn main:app
+```uvicorn main:app```
 
 ![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/E1_marco_casion_DEMO.gif?raw=true)
 
