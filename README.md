@@ -132,13 +132,13 @@ Dans l'apprentissage automatique, un hyperparamètre est un paramètre dont la v
 Un exemple d'hyperparamètre de modèle est la topologie et la taille d'un réseau de neurones. Des exemples d'hyperparamètres d'algorithme sont la vitesse d'apprentissage et la taille des lots.
 Les différents hyperparamètres varient en fonction de la nature des algorithmes d'apprentissage, par exemple certains algorithmes d'apprentissage automatique simples (comme la régression des moindres carrés) n'en nécessitent aucun. Compte tenu de ces hyperparamètres, l'algorithme d'apprentissage apprend les paramètres à partir des données. Par exemple, la régression LASSO est un algorithme qui ajoute un hyperparamètre de régularisation à la régression des moindres carrés, qui doit être défini avant d'estimer les paramètres via l'algorithme d'apprentissage.
 
-⦁	Annexe 5 : Score (MAE, RMSE, R2) 🎯
-MAE : Différence absolue entre les vraies valeurs et les valeurs prédites.
-MSE : Moyenne des écarts au carré entre les vraies valeurs et les valeurs prédites.
-RMSE : Correspond à la racine carrée du MSE.
-Median ABS error : Médiane des différences absolues des erreurs.
-CV mean : Moyenne des différents score R2 produits après avoir effectué un GridSearch.
-STD : Dispersion des points autour de la moyenne des différentes distributions.
+⦁	Annexe 5 : Score (MAE, RMSE, R2) 🎯  
+MAE : Différence absolue entre les vraies valeurs et les valeurs prédites.  
+MSE : Moyenne des écarts au carré entre les vraies valeurs et les valeurs prédites.  
+RMSE : Correspond à la racine carrée du MSE.  
+Median ABS error : Médiane des différences absolues des erreurs.  
+CV mean : Moyenne des différents score R2 produits après avoir effectué un GridSearch.  
+STD : Dispersion des points autour de la moyenne des différentes distributions.  
 
 ⦁	Annexe 6 : ZSCORE 💤
 
