@@ -12,13 +12,21 @@
 <!-- SOMMAIRE -->
 ## Sommaire 📋
 
-* [Contexte_du_projet](#contexte_du_projet)
-  * [Construit_avec](#Construit_avec)
-* [Installation](#Installation)
-  * [Usage](#usage)
 * [Sources](#sources)
-  * [Création d’une API](#creation_dune_api)
+* [Contexte_du_projet](#contexte_du_projet)
+* [Construit_avec](#Construit_avec)
+* [Installation](#Installation)
+* [Usage](#usage)
+* [Création d’une API](#creation_dune_api)
 * [Annexes](#annexes)
+ 
+<!-- SOURCES -->
+## Sources
+
+* https://fr.wikipedia.org/wiki/Régression_linéaire#:~:text=Comme%20les%20autres%20modèles%20de,des%20valeurs%20particulières%20de%20x
+* https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+* https://help.tableau.com/current/pro/desktop/fr-fr/calculating_z_scores.htm
+* https://medium.com/swlh/random-forest-and-its-implementation-71824ced454f
  
 
 <!-- CONTEXTE DU PROJET -->
@@ -72,14 +80,6 @@ En termes de données, cette société met à disposition une base de données r
 ## Modèles
 * ```data/models/linear_regression_best_78%``` - modèle de Regression Linéaire avec un r2 à 78%  
 * ```data/models/random_forest_regressor_best_89%``` - modèle de Random Forest Regressor avec un r2 à 89%
-
-<!-- SOURCES -->
-## Sources
-
-* https://fr.wikipedia.org/wiki/Régression_linéaire#:~:text=Comme%20les%20autres%20modèles%20de,des%20valeurs%20particulières%20de%20x
-* https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
-* https://help.tableau.com/current/pro/desktop/fr-fr/calculating_z_scores.htm
-* https://medium.com/swlh/random-forest-and-its-implementation-71824ced454f
 
 ## Plan de la base de données relationnelle
 
