@@ -91,6 +91,8 @@ Grâce à la librairie MLFlow les divers tests concernant les algorithmes employ
 Après avoir fait tourner le notebook regroupant les différents algorithmes d’IA, il suffit alors de lancer le serveur local MLFlow et de se rendre dans le dossier src/app/, puis d’exécuter la commande :  
  
 ```mlflow ui``` 
+ 
+![Screenshot](https://github.com/tomcdev63/MARCO_CASION/blob/main/IMG/jjgfgftfttggg.JPG?raw=true)
 
 
 ## Création d’une API
