@@ -14,8 +14,8 @@
 
 * [Sources](#sources)
 * [Contexte_du_projet](#contexte_du_projet)
-* [Construit_avec](#Construit_avec)
-* [Installation](#Installation)
+* [Construit_avec](#construit_avec)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Création_API](#création_api)
 * [Annexes](#annexes)
